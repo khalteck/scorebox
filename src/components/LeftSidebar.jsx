@@ -114,7 +114,12 @@ const LeftSidebar = () => {
       {/* mobile and small screens UI */}
       {/* mobile and small screens UI */}
       {openDropBoard && (
-        <div className="w-[70%] h-screen px-6 py-7 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 flex flex-col sm:hidden slideR overflow-y-auto">
+        <div className="w-[70%] h-screen px-6 py-8 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 flex flex-col sm:hidden slideR overflow-y-auto">
+          <img
+            alt="user"
+            src="/images/Sun.png"
+            className="w-5 h-5 absolute top-2 right-2"
+          />
           {/* logo */}
           <div className="flex item-center gap-3">
             <div
