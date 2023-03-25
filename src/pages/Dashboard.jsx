@@ -11,7 +11,7 @@ const Dashboard = () => {
       <Header />
       <RightSidebar />
       <div className="w-full min-h-screen px-5 sm:pl-[230px] lg:pl-[280px] sm:pr-[30px] lg:pr-[330px] py-[80px] sm:py-[110px] bg-[#1c1c1c] ">
-        <div>
+        <div className="block sm:hidden">
           <h2 className="text-white/80 mb-4 text-end">Event Selection</h2>
           <div className="flex gap-3 items-center justify-end mt-[-12px]">
             <img

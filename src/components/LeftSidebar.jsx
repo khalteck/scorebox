@@ -8,7 +8,7 @@ const LeftSidebar = () => {
       {/* medium to large screens UI */}
       {/* medium to large screens UI */}
 
-      <div className="sm:w-[200px] lg:w-[250px] h-screen px-6 py-7 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-20 sm:block hidden overflow-y-auto">
+      <div className="sm:w-[200px] lg:w-[250px] h-screen px-6 py-7 bg-[#1c1c1c] sm:text-[.8rem] lg:text-[1rem] fixed left-0 top-0 border-r-2 border-[#282929] z-20 sm:flex flex-col hidden overflow-y-auto">
         {/* logo */}
         <div className="flex item-center gap-3">
           <img alt="user" src="/images/ByeWind.png" className="w-7 h-7" />
@@ -27,11 +27,11 @@ const LeftSidebar = () => {
 
           {/* favorites list */}
           <div className="mt-3">
-            <div className="flex gap-2 items-center text-white/80 text-[.9rem] mb-2 cursor-pointer">
+            <div className="flex gap-2 items-center text-white/80 mb-2 cursor-pointer">
               <div className="w-2 h-2 bg-white/20 rounded-full"></div>
               <p>Versastyle: Toronto</p>
             </div>
-            <div className="flex gap-2 items-center text-white/80 text-[.9rem] mb-2 cursor-pointer">
+            <div className="flex gap-2 items-center text-white/80 mb-2 cursor-pointer">
               <div className="w-2 h-2 bg-white/20 rounded-full"></div>
               <p>Versastyle: Regina</p>
             </div>
@@ -49,7 +49,7 @@ const LeftSidebar = () => {
 
           {/* Dashboards list */}
           <div className="mt-3">
-            <div className="flex gap-2 items-center text-white/80 text-[.9rem] mb-2">
+            <div className="flex gap-2 items-center text-white/80 mb-2">
               <img
                 alt="arrow"
                 src="/images/ArrowDown.png"
@@ -65,7 +65,7 @@ const LeftSidebar = () => {
                 <p>Event Selection</p>
               </div>
             </div>
-            <div className="text-white/80 text-[.9rem] mb-2 ml-14 cursor-pointer">
+            <div className="text-white/80 mb-2 ml-14 cursor-pointer">
               <p>Add Event</p>
             </div>
           </div>
@@ -100,12 +100,13 @@ const LeftSidebar = () => {
             </div>
           </div>
         </nav>
+        <div className="w-full h-[300px] mb-auto"></div>
 
         {/* logo */}
         <img
           alt="building"
           src="/images/Logo.png"
-          className="w-[130px] h-auto absolute bottom-8"
+          className="w-[130px] h-auto mt-10"
         />
       </div>
 
@@ -113,12 +114,12 @@ const LeftSidebar = () => {
       {/* mobile and small screens UI */}
       {/* mobile and small screens UI */}
       {openDropBoard && (
-        <div className="w-[70%] h-screen px-6 py-7 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 block sm:hidden slideR overflow-y-auto">
+        <div className="w-[70%] h-screen px-6 py-7 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 flex flex-col sm:hidden slideR overflow-y-auto">
           {/* logo */}
           <div className="flex item-center gap-3">
             <div
               onClick={toggleDropBoard}
-              className="w-7 h-7 mr-5 flex justify-center items-center bg-white/80 rounded-full cursor-pointer"
+              className="w-6 h-6 mr-5 flex justify-center items-center bg-white/80 rounded-full cursor-pointer"
             >
               <img
                 alt="user"
@@ -126,8 +127,8 @@ const LeftSidebar = () => {
                 className="w-4 h-4"
               />
             </div>
-            <img alt="user" src="/images/ByeWind.png" className="w-7 h-7" />
-            <h1 className="text-white">Versastyle Inc.</h1>
+            <img alt="user" src="/images/ByeWind.png" className="w-6 h-6" />
+            <h1 className="text-white text-[.9rem]">Versastyle Inc.</h1>
           </div>
 
           {/* nav */}
@@ -215,12 +216,13 @@ const LeftSidebar = () => {
               </div>
             </div>
           </nav>
+          <div className="w-full h-[200px] mb-auto"></div>
 
           {/* logo */}
           <img
             alt="building"
             src="/images/Logo.png"
-            className="w-[130px] h-auto absolute bottom-8"
+            className="w-[130px] h-auto"
           />
         </div>
       )}
