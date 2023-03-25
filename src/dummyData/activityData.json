@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "icon": "/images/Eve-Leroy.png",
+    "message": "Added entries to Kelowna",
+    "stamp": "Email@gmail.com"
+  },
+  {
+    "id": "2",
+    "icon": "/images/Aliah-Lane.png",
+    "message": "Added students",
+    "stamp": "7:32 AM"
+  },
+  {
+    "id": "3",
+    "icon": "/images/Drew-Cano.png",
+    "message": "Submitted a bug",
+    "stamp": "Yesterday 12:39 AM"
+  },
+  {
+    "id": "4",
+    "icon": "/images/Kate-Morrison.png",
+    "message": "Uploaded music",
+    "stamp": "Last Thursday 3:34 AM"
+  },
+  {
+    "id": "5",
+    "icon": "/images/Lana-Steiner.png",
+    "message": "Deleted entry",
+    "stamp": "Aug 11"
+  }
+]

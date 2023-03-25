@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .slide {
+    animation: slide 0.8s ease-out;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .slideR {
+    animation: slideR 0.8s ease-out;
+  }
+  @keyframes slideR {
+    0% {
+      transform: translateX(-200px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .appear {
+    animation: appear 0.8s ease-out;
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .slideD {
+    animation: slideD 0.5s ease-out;
+  }
+  @keyframes slideD {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  /* Track */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  @media (max-width: 640px) {
+    ::-webkit-scrollbar {
+      width: 2px;
+    }
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+  }
+}

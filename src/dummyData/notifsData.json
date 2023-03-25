@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "/images/Bug.png",
+    "message": "You have a bug that needs t..",
+    "stamp": "Email@gmail.com"
+  },
+  {
+    "id": "2",
+    "icon": "/images/user-added.png",
+    "message": "New user registered",
+    "stamp": "1:23 AM"
+  },
+  {
+    "id": "3",
+    "icon": "/images/Bug.png",
+    "message": "You have a bug that needs t..",
+    "stamp": "0:32 AM"
+  },
+  {
+    "id": "4",
+    "icon": "/images/payment.png",
+    "message": "Andi Lane sent payment",
+    "stamp": "Yesterday 12:39 AM"
+  }
+]
