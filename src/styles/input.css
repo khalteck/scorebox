@@ -49,7 +49,7 @@
   }
   /* Track */
   ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
   }
   @media (max-width: 640px) {
     ::-webkit-scrollbar {

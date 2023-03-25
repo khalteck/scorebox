@@ -60,20 +60,22 @@ const RightSidebar = () => {
       {/* on mobile, small and medium screens */}
 
       {openNotifsBoard && (
-        <div className="w-[75%] sm:w-[300px] h-screen px-6 py-7 bg-[#1c1c1c] fixed right-0 top-0 border-l-2 border-[#282929] overflow-y-auto z-30 sm:z-20 block lg:hidden slide">
-          <div
-            onClick={toggleNotifsBoard}
-            className="w-7 h-7 flex justify-center items-center bg-white/80 rounded-full absolute top-4 right-4 cursor-pointer"
-          >
-            <img
-              alt="user"
-              src="/images/icons8-close-50.png"
-              className="w-4 h-4"
-            />
-          </div>
+        <div className="w-[76%] sm:w-[300px] h-screen px-6 py-7 bg-[#1c1c1c] fixed right-0 top-0 border-l-2 border-[#282929] overflow-y-auto z-30 sm:z-20 block lg:hidden slide">
           {/* notifs*/}
           <div className="w-full mb-6">
-            <h1 className="text-white">Notifications</h1>
+            <div className="flex items-center justify-between">
+              <h1 className="text-white">Notifications</h1>
+              <div
+                onClick={toggleNotifsBoard}
+                className="w-6 h-6 flex justify-center items-center bg-white/80 rounded-full cursor-pointer"
+              >
+                <img
+                  alt="user"
+                  src="/images/icons8-close-50.png"
+                  className="w-4 h-4"
+                />
+              </div>
+            </div>
 
             {/* notifs container */}
             <div className="w-full mt-4">

@@ -6,10 +6,9 @@
     "region": "Toronto, Ontario",
     "venue": "Meridian Arts Centre",
     "address": "5040 Yonge St., North York, ON M2N 6R8",
-    "studios": "10",
-    "estimated": "168",
-    "submitted": "55",
-    "favorite": false
+    "entries": "72",
+    "music": "15",
+    "locked": false
   },
   {
     "id": "2",
@@ -18,10 +17,9 @@
     "region": "Regina, Saskatchewan",
     "venue": "Conexus Arts Centre",
     "address": "200 Lakeshore Dr., Regina, SK S4S 7A1",
-    "studios": "5",
-    "estimated": "70",
-    "submitted": "25",
-    "favorite": true
+    "entries": "70",
+    "music": "25",
+    "locked": true
   },
   {
     "id": "3",
@@ -30,10 +28,9 @@
     "region": "Fredericton, New Brunswick",
     "venue": "Fredericton Convention Centre",
     "address": "670 Queen St., Fredericton, NB E3B 1C2",
-    "studios": "12",
-    "estimated": "201",
-    "submitted": "150",
-    "favorite": false
+    "entries": "201",
+    "music": "150",
+    "locked": true
   },
   {
     "id": "4",
@@ -42,9 +39,8 @@
     "region": "Kelowna, British Columbia",
     "venue": "Rotary Centre for the Arts",
     "address": "421 Cawston Ave., Kelowna, BC V1Y 6Z1",
-    "studios": "1",
-    "estimated": "16",
-    "submitted": "0",
-    "favorite": false
+    "entries": "16",
+    "music": "0",
+    "locked": true
   }
 ]

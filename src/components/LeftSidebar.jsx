@@ -31,15 +31,11 @@ const LeftSidebar = () => {
               <div className="w-2 h-2 bg-white/20 rounded-full"></div>
               <p>Versastyle: Toronto</p>
             </div>
-            <div className="flex gap-2 items-center text-white/80 mb-2 cursor-pointer">
-              <div className="w-2 h-2 bg-white/20 rounded-full"></div>
-              <p>Versastyle: Regina</p>
-            </div>
           </div>
         </nav>
 
         {/* Dashboards */}
-        <nav className="mt-10">
+        <nav className="mt-16">
           {/* Dashboards */}
           <div>
             <div className="">
@@ -64,9 +60,6 @@ const LeftSidebar = () => {
 
                 <p>Event Selection</p>
               </div>
-            </div>
-            <div className="text-white/80 mb-2 ml-14 cursor-pointer">
-              <p>Add Event</p>
             </div>
           </div>
         </nav>
@@ -114,17 +107,12 @@ const LeftSidebar = () => {
       {/* mobile and small screens UI */}
       {/* mobile and small screens UI */}
       {openDropBoard && (
-        <div className="w-[70%] h-screen px-6 py-8 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 flex flex-col sm:hidden slideR overflow-y-auto">
-          <img
-            alt="user"
-            src="/images/Sun.png"
-            className="w-5 h-5 absolute top-2 right-2"
-          />
+        <div className="w-[70%] h-screen pl-6 pr-4 py-5 bg-[#1c1c1c] fixed left-0 top-0 border-r-2 border-[#282929] z-30 flex flex-col sm:hidden slideR overflow-y-auto">
           {/* logo */}
-          <div className="flex item-center gap-3">
+          <div className="mb-5 flex justify-between">
             <div
               onClick={toggleDropBoard}
-              className="w-6 h-6 mr-5 flex justify-center items-center bg-white/80 rounded-full cursor-pointer"
+              className="w-6 h-6 flex justify-center items-center bg-white/80 rounded-full cursor-pointer"
             >
               <img
                 alt="user"
@@ -132,12 +120,15 @@ const LeftSidebar = () => {
                 className="w-4 h-4"
               />
             </div>
+            <img alt="user" src="/images/Sun.png" className="w-6 h-6" />
+          </div>
+          <div className="flex item-center gap-3">
             <img alt="user" src="/images/ByeWind.png" className="w-6 h-6" />
-            <h1 className="text-white text-[.9rem]">Versastyle Inc.</h1>
+            <h1 className="text-white text-[.9rem] mr-auto">Versastyle Inc.</h1>
           </div>
 
           {/* nav */}
-          <nav className="mt-10">
+          <nav className="mt-8">
             {/* favorites/recently */}
             <div>
               <div className="flex gap-4 ">

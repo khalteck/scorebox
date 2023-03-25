@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex lg:gap-4 md:gap-3 items-center mr-auto">
           <img
             alt="user"
-            src="/images/keep.png"
+            src="/images/Sidebar.png"
             className="lg:w-6 lg:h-6 md:w-4 md:h-4 cursor-pointer"
           />
           <img
@@ -77,7 +77,7 @@ const Header = () => {
         <div className="flex gap-2 items-center mr-auto">
           <img
             alt="user"
-            src="/images/keep.png"
+            src="/images/Sidebar.png"
             className="w-4 h-4 cursor-pointer"
           />
           <img
@@ -131,8 +131,8 @@ const Header = () => {
         <img
           onClick={toggleDropBoard}
           alt="menu"
-          src="/images/icons8-menu-32.png"
-          className={`w-7 h-6 cursor-pointer ${
+          src="/images/Sidebar.png"
+          className={`w-7 h-8 cursor-pointer ${
             !openSearch ? "mr-6" : "mr-auto"
           }`}
         />
@@ -140,7 +140,7 @@ const Header = () => {
           <img
             alt="logo"
             src="/images/Logo.png"
-            className="w-[100px] h-auto mr-auto"
+            className="w-auto h-6 mx-auto"
           />
         )}
 
@@ -175,7 +175,7 @@ const Header = () => {
 
           <div
             onClick={toggleNotifsBoard}
-            className="w-7 h-7 flex justify-center items-center border border-[#94a4fd]/60 rounded-full bg-[#94a4fd]/10 cursor-pointer"
+            className="w-7 h-7 flex justify-center items-center border border-[#94a4fd]/60 rounded-full cursor-pointer"
           >
             <img
               alt="user"
