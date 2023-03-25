@@ -1,4 +1,5 @@
 import EventCard from "../components/EventCard";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LeftSidebar from "../components/LeftSidebar";
 import RightSidebar from "../components/RightSidebar";
@@ -10,7 +11,7 @@ const Dashboard = () => {
       <LeftSidebar />
       <Header />
       <RightSidebar />
-      <div className="w-full min-h-screen px-5 sm:pl-[230px] lg:pl-[280px] sm:pr-[30px] lg:pr-[330px] py-[80px] sm:py-[110px] bg-[#1c1c1c] ">
+      <div className="w-full min-h-screen px-5 sm:pl-[230px] lg:pl-[280px] sm:pr-[30px] lg:pr-[330px] pt-[80px] sm:pt-[110px] bg-[#1c1c1c] ">
         <div className="block sm:hidden">
           <h2 className="text-white/80 mb-4 text-end">Event Selection</h2>
           <div className="flex gap-3 items-center justify-end mt-[-12px]">
@@ -45,6 +46,7 @@ const Dashboard = () => {
             </button>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
